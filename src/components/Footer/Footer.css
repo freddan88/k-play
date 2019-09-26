@@ -1,0 +1,73 @@
+.main-footer{
+    background-color: black;
+    color: white;
+    height: 473px;
+    box-sizing: border-box;
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-footer .div1{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 180px;
+}
+
+.main-footer .div1 img{
+    padding-bottom: 5px;
+}
+
+.main-footer .div1 > div p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    padding-left: 60px;
+}
+
+.main-footer .div2{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div2__social-list .highlight-circle{
+    background-color: #212121;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2__social-list li {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.div2__social-list li a {
+    padding-left: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: white;
+}
+
+.main-footer cite{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #9B9B9B;
+    border-top: 1px solid #9B9B9B;
+    padding-top: 15px;
+}
