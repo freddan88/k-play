@@ -106,7 +106,7 @@ const MediaHeader = (props) => {
                             <small>Producer, Jon Plowman</small>
                         </div>
                         <div>
-                            <small>Photo and video editing, Example</small>
+                            <small>Inspelat för K-play i samarbete med Kulturakademin</small>
                         </div>
                     </div>
                 </div>

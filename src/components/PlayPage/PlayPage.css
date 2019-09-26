@@ -129,7 +129,7 @@
 }
 
 .media-header__meta{
-    padding: 15px 5px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -149,6 +149,7 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
+    padding-bottom: 4px;
 }
 
 .media-header__meta small{
@@ -160,7 +161,7 @@
 }
 
 .play_tag-list{
-    padding: 0 5px;
+    padding: 0 10px;
     margin: 0 auto;
     width: 100%;
 }
@@ -186,7 +187,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
-    margin: 5px;
+    margin: 10px 5px 0 5px;
 }
 
 .playpage-cta {
@@ -198,7 +199,7 @@
     justify-content: space-between;
     flex-direction: column;
 	box-sizing: border-box;
-    margin: 8px 10px;
+    margin: 24px 10px 8px 10px;
     padding: 16px;
 }
 

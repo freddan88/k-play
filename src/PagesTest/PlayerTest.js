@@ -52,7 +52,7 @@ class Player extends Component {
         const style = {
             height: '200px',
             width: '100%',
-            backgroundColor: 'black',
+            backgroundColor: '#131313',
         }
 
         return (
