@@ -15,7 +15,7 @@ const FilterNav = () => {
 
     return (
         <>
-        <Overlay show={ actionID } />
+        <Overlay show={ actionID } toggle={ false } />
 
         <ul className="filter-container">
 

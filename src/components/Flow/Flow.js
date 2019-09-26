@@ -45,8 +45,8 @@ class Flow extends Component {
 						<ul>
 							<li onClick={() => this.setActive(0,'allt')}
 								className={ this.state.active === 0 ? 'active' : ' '}>Allt</li>
-							<li onClick={() => this.setActive(1,'scenteknik')}
-								className={ this.state.active === 1 ? 'active' : ' '}>Scenteknik</li>
+							<li onClick={() => this.setActive(1,'scenkonst')}
+								className={ this.state.active === 1 ? 'active' : ' '}>Scenkonst</li>
 							<li onClick={() => this.setActive(2,'film&tv')}
 								className={ this.state.active === 2 ? 'active' : ' '}>Film & TV</li>
 							<li onClick={() => this.setActive(3,'musik')}

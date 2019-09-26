@@ -5,6 +5,7 @@
     position: fixed;
     z-index: 50;
     top: 0;
+    left: 0;
 }
 
 /* navigation */
@@ -20,15 +21,18 @@
     padding-left: 50px;
 }
 
+.main-navigation-maobile1 .navigation-list li{
+    padding: 22px 0 21px 8px;
+}
+
 .main-navigation-maobile1 .navigation-list li a{
     color: white;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 56px;
     font-style: normal;
-    text-transform: uppercase;
-    font-variant: small-caps;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
     text-decoration: none;
+    padding: 24px 0 22px 8px;
 }
 
 /*  */
