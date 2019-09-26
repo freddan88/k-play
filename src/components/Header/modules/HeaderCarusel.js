@@ -3,22 +3,22 @@ import Carousel from 'nuka-carousel';
 
 const posters = [
     {
-        taggline: "PODCAST INTERVIEW",
-        title: "Spotlight on Italy",
-        image: "./images/slider_img-1.png",
-        description: "Meet two of Italy´s top producers, talking about their upcoming slates and new drama.",
+        taggline: "Podcast",
+        title: "Adaptionsseminarium",
+        image: "./images/slider_img-4.png",
+        description: "Hur jobbar branschen med adaption från bok till film? Vi fördjupar oss i ämnet.",
     },
     {
-        taggline: "PODCAST INTERVIEW",
-        title: "Spotlight on Italy",
-        image: "./images/slider_img-2.png",
-        description: "Meet two of Italy´s top producers, talking about their upcoming slates and new drama.",
+        taggline: "KURS",
+        title: "Art & Business",
+        image: "./images/slider_img-5.png",
+        description: "Kostnadsfri kurs för att öka kunskapen om företagande hos kreatörer och konstnärer.",
     },
     {
-        taggline: "PODCAST INTERVIEW",
-        title: "Spotlight on Italy",
-        image: "./images/slider_img-3.png",
-        description: "Meet two of Italy´s top producers, talking about their upcoming slates and new drama.",
+        taggline: "video",
+        title: "Audiovisual Days 2018",
+        image: "./images/slider_img-6.png",
+        description: "Lyssna till våra inbjudna experter när de ger deras syn på framtidens dramaserier.",
     }
 ];
 

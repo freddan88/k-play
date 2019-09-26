@@ -3,7 +3,7 @@
 .search-result{
     padding: 5px;
     min-height: 100vh;
-    background-color: black;
+    background-color: #131313;
 }
 
 .search-result .flexbar{

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import mobileLogo from '../../../Images/logo-small.png';
+import mobileLogo from '../../../Images/logo-small2.png';
 import mobileSearch from '../../../Images/search-icon2.png';
 import mobileMenu from '../../../Images/hamburger-icon2.png';
 import mobileClose from '../../../Images/close-icon2.png';

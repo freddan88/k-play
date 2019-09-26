@@ -1,5 +1,5 @@
 .main-footer{
-    background-color: black;
+    background-color: #131313;
     color: white;
     height: 473px;
     box-sizing: border-box;
@@ -43,6 +43,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+    padding: 8px;
+}
+
+.div2__social-list .highlight-circle > img.soundcloud{
+    width: 100%;
 }
 
 .div2__social-list li {

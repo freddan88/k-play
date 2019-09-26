@@ -25,7 +25,7 @@
 
 .main-header{
     width: 100%;
-    background-color: black;
+    background-color: #131313;
     position: relative;
 }
 
@@ -35,7 +35,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: black;
+    background-color: #131313;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -103,7 +103,7 @@
 
   .mobile-menu{
     width: 100%;
-    background-color: black;
+    background-color: #131313;
     position: fixed;
     z-index: 50;
     top: 0;

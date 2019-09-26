@@ -1,6 +1,6 @@
 .media-header {
     width: 100%;
-    background-color: black;
+    background-color: #131313;
 }
 
 .actionsOverlay{
@@ -242,7 +242,7 @@
 
 .flowplayer{
     padding: 25px 5px 0 5px;
-    background-color: black;
+    background-color: #131313;
 }
 
 .flowplayer__related ul{

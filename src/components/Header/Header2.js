@@ -1,7 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import MobileMenu from './modules/MobileMenu';
-import SearchResults from './modules/SearchResults';
-import FilterLightbox from './modules/FilterLightbox';
 import Navigation from './modules/Navigation';
 import HeaderCarusel from './modules/HeaderCarusel'
 import Overlay from '../Overlay/Overlay';

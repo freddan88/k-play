@@ -1,8 +1,9 @@
 import React from 'react';
-import logoLG from '../../Images/logo-footer.png';
+import logoLG from '../../Images/logo-footer2.png';
 import youtubeLogo from '../../Images/footer-logo-youtube.png';
 import instagramLogo from '../../Images/footer-logo-instagram.png';
 import facebookLogo from '../../Images/footer-logo-facebook.png';
+import soundcloudLogo from '../../Images/footer-logo-soundcloud.png';
 import './Footer.css';
 
 const Footer = () => {
@@ -37,7 +38,7 @@ const Footer = () => {
                     </li>
                     <li>
                         <div className="highlight-circle">
-                            <img src={facebookLogo} alt="Facebook" />
+                            <img className="soundcloud" src={soundcloudLogo} alt="Soundcloud" />
                         </div>
                         <a href="https://soundcloud.com/user-994747535" target="_blank" rel="noopener noreferrer">Soundcloud</a>
                     </li>

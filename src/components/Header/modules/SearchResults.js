@@ -1,6 +1,5 @@
 import React from 'react';
 import Search from './../../SearchField/Search';
-import mobileClose from '../../../Images/close-icon2.png';
 
 const SearchResults = (props) => {
 
