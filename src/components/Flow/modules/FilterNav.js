@@ -8,14 +8,11 @@ const FilterNav = () => {
 
     const toggleOverlay = (id) => {
         setActionID(id)
-
-        console.log(actionID);
-
     }
 
     return (
         <>
-        <Overlay show={ actionID } toggle={ false } />
+        <Overlay show={ 3 } toggle={ true } />
 
         <ul className="filter-container">
 

@@ -35,4 +35,29 @@
     padding: 24px 0 22px 8px;
 }
 
-/*  */
+/* filter-overlay */
+
+.overlay-filterbar{
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+ul.overlay-filter-ul{
+    all: unset;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+ul.overlay-filter-ul > li{
+    all: unset;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+}

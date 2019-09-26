@@ -1,13 +1,26 @@
 import React from 'react';
+import chevronDown from '../../../Images/chevron-down.png';
 
 const FilterSort = (props) => {
 
     console.log(window.location.search)
 
     return (
-        <div>
+        <section className="filter-overlay">
+            <div className="overlay-filterbar">
+                <ul className="overlay-filter-ul">
+                    <li>
+                        <span>Filtrera</span>
+                        <img src={chevronDown} alt="Filtrera - ChevronDown" />
+                    </li>
 
-        </div>
+                    <li>
+                        <span>Sortera</span>
+                        <img src={chevronDown} alt="Sortera - ChevronDown" />
+                    </li>
+                </ul>
+            </div>
+        </section>
     );
 };
 
