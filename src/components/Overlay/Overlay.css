@@ -90,6 +90,7 @@ ul.category-list > li{
     padding: 0 12px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .dropdown-section{

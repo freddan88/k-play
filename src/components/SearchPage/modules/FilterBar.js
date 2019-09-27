@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import chevronDown from '../../../Images/chevron-down.png';
 
-const filterBar = () => {
+const filterBar = (props) => {
+
     return (
+
         <div className="filter-bar-search">
             <ul>
                 <li>

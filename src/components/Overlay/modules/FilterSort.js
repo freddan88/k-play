@@ -2,13 +2,13 @@ import React,{ useState, useEffect } from 'react';
 import chevronDown from '../../../Images/chevron-down.png';
 import chevronUp from '../../../Images/chevron-up-active.png';
 import FilterView from './FilterView';
+import SortView from './SortView';
 
 const FilterSort = (props) => {
 
     const [ active, setActive ] = useState('');
 
     useEffect(() => {
-        console.log( props );
         setActive(props.action)
     },[])
 
@@ -33,12 +33,17 @@ const FilterSort = (props) => {
                 </ul>
             </div>
 
-            <FilterView />
+            { active === 1 ? <FilterView text="Visa valda" visa="true" /> : '' }
+            { active === 2 ? <SortView text="Visa sökresultat" visa="false" /> : '' }
 
             <div className="filterSort-buttons_container">
 
-                <button onClick={() => window.location.reload()} className="button secondary-disabled">Rensa alla filter</button>
-                <button onClick={() => window.location.reload()} className="button primary-active">Visa valda</button>
+                <button onClick={() => window.location.reload()}
+                style={{ visibility: props.btnShow ? ' ' : 'hidden' }}
+                className="button secondary-disabled">Rensa alla filter</button>
+
+                <button onClick={() => window.location.reload()}
+                className="button primary-active">{ props.btnText }</button>
 
             </div>
 
