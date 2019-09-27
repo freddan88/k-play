@@ -42,7 +42,7 @@ const FilterSort = (props) => {
             <div className="filterSort-buttons_container">
 
                 <button onClick={() => window.location.reload()}
-                style={{ visibility: btnShow ? ' ' : 'hidden' }}
+                style={{ visibility: btnShow ? 'visible' : 'hidden' }}
                 className="button secondary-disabled">Rensa alla filter</button>
 
                 <button onClick={() => window.location.reload()}
