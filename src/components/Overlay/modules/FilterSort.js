@@ -36,8 +36,10 @@ const FilterSort = (props) => {
             <FilterView />
 
             <div className="filterSort-buttons_container">
-                <button className="button secondary-disabled">Rensa alla filter</button>
-                <button className="button primary-active">Visa valda</button>
+
+                <button onClick={() => window.location.reload()} className="button secondary-disabled">Rensa alla filter</button>
+                <button onClick={() => window.location.reload()} className="button primary-active">Visa valda</button>
+
             </div>
 
         </section>
