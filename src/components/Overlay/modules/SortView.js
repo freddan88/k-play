@@ -1,13 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import expandICO from '../../../Images/expandOverlayItem.png';
 import closeICO from '../../../Images/closeOverlayItem.png';
 import activeICO from '../../../Images/activeOverlayItem.png';
 
-const SortView = () => {
+const SortView = (props) => {
 
     const [ activeLink, setActiveLink ] = useState('');
 
+    useEffect(() => {
+        setActive()
+    },[])
+
     const setActive = (id) => {
+        id = typeof id !== 'undefined' ? id : 0;
         setActiveLink(id)
     }
 

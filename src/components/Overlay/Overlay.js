@@ -6,6 +6,8 @@ import './Overlay.css';
 
 const Overlay = (props) => {
 
+    console.log(props)
+
     return (
         <nav className="main-navigation-maobile1" style={{ display: props.toggle ? 'block' : 'none' }} >
             { props.show === 1 && <Navigation /> }
