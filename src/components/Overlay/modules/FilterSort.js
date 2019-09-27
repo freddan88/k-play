@@ -7,13 +7,16 @@ import SortView from './SortView';
 const FilterSort = (props) => {
 
     const [ active, setActive ] = useState('');
+    const [ btnShow, setBtnShow ] = useState('');
 
     useEffect(() => {
         setActive(props.action)
+        setBtnShow(props.btnShow)
     },[])
 
-    const toggleNavigation = (id) => {
+    const toggleNavigation = (id,show) => {
         setActive(id)
+        setBtnShow(show)
     }
 
     return (
@@ -21,12 +24,12 @@ const FilterSort = (props) => {
 
             <div className="overlay-filterbar">
                 <ul className="overlay-filter-ul">
-                    <li onClick={() => toggleNavigation(1)}>
+                    <li onClick={() => toggleNavigation(1,true)}>
                         <span className={ active === 1 ? 'active' : ''}>Filtrera</span>
                         <img src={ active === 1 ? chevronUp : chevronDown } alt="Filtrera - ChevronDown" />
                     </li>
 
-                    <li onClick={() => toggleNavigation(2)}>
+                    <li onClick={() => toggleNavigation(2,false)}>
                         <span className={ active === 2 ? 'active' : ''}>Sortera</span>
                         <img src={ active === 2 ? chevronUp : chevronDown } alt="Sortera - ChevronDown" />
                     </li>
@@ -39,7 +42,7 @@ const FilterSort = (props) => {
             <div className="filterSort-buttons_container">
 
                 <button onClick={() => window.location.reload()}
-                style={{ visibility: props.btnShow ? ' ' : 'hidden' }}
+                style={{ visibility: btnShow ? ' ' : 'hidden' }}
                 className="button secondary-disabled">Rensa alla filter</button>
 
                 <button onClick={() => window.location.reload()}

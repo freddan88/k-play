@@ -40,7 +40,6 @@ const Navigation = (props) => {
             <div className="buttons-container">
                 <img className="search-menu" src={mobileSearch} alt="Search or filter"
                 onClick={() => props.onClick(2) } />
-                    {/* style={{ display: (! props.toggle && ! props.filterToggle) ? 'block' : 'none' }} /> */}
 
                 <img className="hamburger-menu" src={menuIcon} alt="Menu" onClick={() => props.onClick(1) }
                     style={{ display: (! props.searchToggle && ! props.filterToggle) ? 'block' : 'none' }} />

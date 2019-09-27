@@ -19,10 +19,8 @@ class SearchField extends Component {
 		fetch(api)
 		.then(res => {
 			return res.json()
-			console.log(res)
 		})
 		.then(json => {
-			console.log(json)
 			this.setState({
 				data: json,
 			});

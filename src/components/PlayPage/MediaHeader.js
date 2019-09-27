@@ -114,8 +114,8 @@ const MediaHeader = (props) => {
                 <div className="play_tag-list" style={{  display: isExpanded ? 'block' : 'none'}}>
                     <ul>
                         {!props.isLoading && tags.map((tag,i) => (
-                            <Link to={{ pathname: '/search', search: `?tag=${ tag }` }}>
-                                <li key={ i }>{ tag }</li>
+                            <Link key={ i } to={{ pathname: '/search', search: `?tag=${ tag }` }}>
+                                <li>{ tag }</li>
                             </Link>
                         ))}
                     </ul>

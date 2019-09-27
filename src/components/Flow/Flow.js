@@ -19,7 +19,6 @@ class Flow extends Component {
 
 	fetchData(filter = 'allt'){
 		const api = `https://k-play-api.herokuapp.com/category/${filter}`
-		// console.log(api)
 		fetch(api)
 		.then(res => res.json())
 		.then(data => {

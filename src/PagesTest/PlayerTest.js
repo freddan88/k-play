@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import MediaHeader from '../components/PlayPage/MediaHeader';
 import FlowPlayerPage from '../components/PlayPage/modules/FlowPlayerPage';
-import Footer from '../components/Footer/Footer';
 
 class Player extends Component {
     constructor(props){
@@ -59,9 +58,10 @@ class Player extends Component {
             <div>
                 <MediaHeader isLoading={ this.state.isLoading } media_id={ this.state.id } resource={ this.state.resource } prevParams={ this.state.historyParams } />
                 { !this.state.isLoading && <FlowPlayerPage playerPageLoading={ this.state.isLoading } resource={ this.state.resource } /> }
-            <footer style={ style }>
 
-            </footer>
+                <footer style={ style }>
+
+                </footer>
             </div>
         );
     }

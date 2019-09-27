@@ -8,7 +8,6 @@ const SortView = () => {
     const [ activeLink, setActiveLink ] = useState('');
 
     const setActive = (id) => {
-        console.log(id)
         setActiveLink(id)
     }
 

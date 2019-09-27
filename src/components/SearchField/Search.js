@@ -15,7 +15,6 @@ class Search extends Component {
 	}
 	fetchData(){
 		const api = `https://k-play-api.herokuapp.com`
-		// console.log(api)
 		fetch(api)
 		.then(res => res.json())
 		.then(data => {
