@@ -10,7 +10,7 @@
 	gap: 10px;
 }
 
-.flow-main > ul {
+ul.flow-categories-list {
 	list-style: none;
 	display: flex;
 	justify-content: space-between;
@@ -19,7 +19,7 @@
 	min-height: 48px;
 }
 
-.flow-main > ul > li{
+ul.flow-categories-list > li{
 	position: relative;
 	font-style: normal;
     font-weight: 400;
@@ -30,11 +30,11 @@
     justify-content: center;
 }
 
-.flow-main > ul > li.active{
+ul.flow-categories-list > li.active{
 	font-weight: 800;
 }
 
-.flow-main > ul > li::after{
+ul.flow-categories-list > li::after{
 	content: " ";
 	display: block;
 	position: absolute;
@@ -45,7 +45,7 @@
     width: 100%;
 }
 
-.flow-main > ul > li.active::after{
+ul.flow-categories-list > li.active::after{
 	background-color: #CD7B29;
 }
 
@@ -140,7 +140,7 @@
 	text-overflow: ellipsis;
 }
 
-.flow-categories > ul {
+.flow-categories > ul.flow-categories-list {
     padding-top: 24px;
 }
 

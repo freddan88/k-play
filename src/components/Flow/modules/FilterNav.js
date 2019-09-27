@@ -6,15 +6,17 @@ const FilterNav = () => {
 
     const [ overlayID, setOverlayID ] = useState('')
     const [ actionID, setActionID ] = useState('')
+    const [ openOverlay, setOpenOverlay ] = useState(false)
 
     const toggleOverlay = (o,a) => {
         setOverlayID(o)
         setActionID(a)
+        setOpenOverlay(!openOverlay)
     }
 
     return (
         <>
-        <Overlay show={ 3 } toggle={ true } action={ 1 } />
+        <Overlay show={ overlayID } toggle={ openOverlay } action={ actionID } />
 
         <ul className="filter-container">
 

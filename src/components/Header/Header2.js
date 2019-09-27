@@ -18,6 +18,11 @@ const Header2 = (props) => {
     const mobileMenuToggle = (id) => {
         setShowMobileMenu(!showMobileMenu);
         setActionOverlay(id);
+
+        const MainNavigationMaobile1 = document.querySelector('.main-navigation-maobile1');
+        const mainNavigation = document.querySelector('.main-navigation');
+        MainNavigationMaobile1.style.display = "none";
+        mainNavigation.removeAttribute('style');
     }
 
     const searchResultsToggle = () => {

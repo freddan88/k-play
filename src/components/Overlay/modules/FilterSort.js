@@ -35,7 +35,10 @@ const FilterSort = (props) => {
 
             <FilterView />
 
-
+            <div className="filterSort-buttons_container">
+                <button className="button secondary-disabled">Rensa alla filter</button>
+                <button className="button primary-active">Visa valda</button>
+            </div>
 
         </section>
     );

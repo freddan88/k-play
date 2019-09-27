@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Category0 from './FilterView_dropdowns/Category0';
-import expandOverlayItem from '../../../Images/expandOverlayItem.png';
+import expandICO from '../../../Images/expandOverlayItem.png';
+import closeICO from '../../../Images/closeOverlayItem.png';
 
 const FilterView = () => {
 
@@ -8,6 +9,7 @@ const FilterView = () => {
 
     const expandSektionID = (id) => {
         setExpandSektion(id)
+
     }
 
     const categories = ['Kategori','Format','Event','Video & Podcast'];
@@ -20,7 +22,7 @@ const FilterView = () => {
                 <li key={ index }>
                     <span>{ category }</span>
                     <div className="toggleExpandButton" onClick={() => expandSektionID(index)}>
-                        <img src={ expandOverlayItem } alt="Expand Section" />
+                        <img src={ expandSektion === index ? closeICO : expandICO } alt="Expand Section" />
                     </div>
                 </li>
                     <Category0 id={ index } sektion={expandSektion}
@@ -28,7 +30,6 @@ const FilterView = () => {
                 </>
                 ))}
             </ul>
-
         </div>
     );
 };

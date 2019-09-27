@@ -42,7 +42,7 @@ class Flow extends Component {
 			<div className="flow-main">
 				<div className="flow-header">
 					<div className="flow-categories">
-						<ul>
+						<ul className="flow-categories-list">
 							<li onClick={() => this.setActive(0,'allt')}
 								className={ this.state.active === 0 ? 'active' : ' '}>Allt</li>
 							<li onClick={() => this.setActive(1,'scenkonst')}
