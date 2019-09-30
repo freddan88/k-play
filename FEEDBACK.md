@@ -39,7 +39,7 @@ this.setState(prevState => ({
 
 - [SearchResults.js:7](https://github.com/freddan88/k-play/blob/master/src/components/Header/modules/SearchResults.js#L7) - Don't use inline styling.
 
-- [SortView.js:25](https://github.com/freddan88/k-play/blob/master/src/components/Overlay/modules/SortView.js#L25) - The key should be on the <li> tag instead. The React.Fragment is useless here
+- [SortView.js:25](https://github.com/freddan88/k-play/blob/master/src/components/Overlay/modules/SortView.js#L25) - The key should be on the `<li>` tag instead. The React.Fragment is useless here
 
 - [MediaHeader.js:27](https://github.com/freddan88/k-play/blob/master/src/components/PlayPage/MediaHeader.js#27) - Use strict comparisons
 
