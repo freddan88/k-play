@@ -1,3 +1,21 @@
+# Kulturakademin
+This is our prototype for Kulturakademin K-Play (Mobile only - width: 435px ).
+
+## Install
+Download this repo, run npm install and then npm start and you should be good to go!
+
+## View prototype
+View our prototype at: https://amazing-colden-d69ee5.netlify.com/
+
+## Collaboration
+- [Fredrik Leemann](https://github.com/freddan88)
+- [Laureta Dzika](https://github.com/xhika)
+
+## Feedback from group 5
+[Feedback.md](FEEDBACK.md)
+
+# React info
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
