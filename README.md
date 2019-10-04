@@ -11,7 +11,7 @@ View our prototype at: https://amazing-colden-d69ee5.netlify.com/
 - [Fredrik Leemann](https://github.com/freddan88)
 - [Laureta Dzika](https://github.com/xhika)
 
-## Feedback from group 5
+## Feedback
 [Feedback.md](FEEDBACK.md)
 
 # React info
