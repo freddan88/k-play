@@ -5,7 +5,7 @@ This is our prototype for Kulturakademin K-Play (Mobile only - width: 435px ).
 Download this repo, run npm install and then npm start and you should be good to go!
 
 ## View prototype
-View our prototype at: https://amazing-colden-d69ee5.netlify.com/
+View our prototype at: https://k-play-demo.netlify.com/
 
 ## Collaboration
 - [Fredrik Leemann](https://github.com/freddan88)
